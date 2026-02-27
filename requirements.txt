@@ -1,0 +1,3 @@
+ollama
+chromadb
+langchain_text_splitters
