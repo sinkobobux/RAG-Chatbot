@@ -13,7 +13,7 @@ with open("counter.txt","r") as f:
     count=int(f.read().strip())
 
 print("Reading output.json and generating embeddings...")
-with open("output.json", "r",encoding='utf-8') as f:
+with open("articles.json", "r",encoding='utf-8') as f:
     json_content=json.load(f)
     for i, article in enumerate(json_content):
         content = article["Body"]
